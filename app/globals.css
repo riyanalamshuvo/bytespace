@@ -1,0 +1,10 @@
+@tailwind base; @tailwind components; @tailwind utilities;
+body{@apply font-sans text-ink antialiased}
+@layer components{
+  .container-x{@apply mx-auto w-full max-w-[1440px] px-6 md:px-12}
+  .btn{@apply inline-flex items-center justify-center rounded-full bg-[#d2fc00] px-8 py-3.5 text-base font-semibold text-black transition hover:bg-[#bce400] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-brand}
+  .h2{@apply font-display text-4xl font-semibold leading-tight md:text-[54px]}
+  .grid-bg{background-color:#0055fe;background-image:linear-gradient(rgba(255,255,255,.18) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.18) 1px,transparent 1px);background-size:110px 110px}
+  .glow{background:radial-gradient(600px 400px at 30% 30%,rgba(210,252,0,.35),transparent 70%),radial-gradient(500px 400px at 95% 90%,rgba(0,56,255,.2),transparent 70%),#FAFAFA}
+}
+
