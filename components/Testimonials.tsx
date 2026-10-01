@@ -26,7 +26,7 @@ const testimonials = [
 
 export default function Testimonials() {
   return (
-    <section className="relative py-24 sm:py-32 overflow-hidden bg-[#f8fafc]">
+    <section id="testimonials" className="relative py-24 sm:py-32 overflow-hidden bg-[#f8fafc]">
       {/* Soft Ambient Glow Backgrounds matching screenshot */}
       <div className="absolute top-[10%] left-[45%] w-[600px] h-[600px] rounded-full bg-[#f2ff9e]/50 blur-[140px] pointer-events-none" />
       <div className="absolute top-[0%] left-[-5%] w-[500px] h-[500px] rounded-full bg-[#e0e7ff]/50 blur-[140px] pointer-events-none" />
