@@ -56,7 +56,7 @@ const categories = [
 
 export default function Categories() {
   return (
-    <section className="container-x py-20 text-center">
+    <section id="categories" className="container-x py-20 text-center">
       <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">
         Explore Diverse Learning Paths at Bytespace
       </h2>

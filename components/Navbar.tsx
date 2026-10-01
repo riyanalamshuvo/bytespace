@@ -40,23 +40,23 @@ export default function Navbar() {
 
       {/* Main Nav Links */}
       <nav className="hidden items-center gap-10 md:flex" aria-label="Main Navigation">
-        <Link href="/" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+        <Link href="/" className="text-base font-semibold text-white transition-colors">
           Home
         </Link>
-        <Link href="/courses" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+        <Link href="/courses" className="text-base font-medium text-white/80 hover:text-white transition-colors">
           Courses
         </Link>
-        <Link href="/creators/purepearl-studio" className="text-sm font-medium text-white/90 hover:text-white transition-colors">
+        <Link href="/creators/purepearl-studio" className="text-base font-medium text-white/80 hover:text-white transition-colors">
           Creators
         </Link>
       </nav>
 
       {/* Right Actions */}
-      <div className="flex items-center gap-6 text-sm font-medium text-white">
-        <Link href="/login" className="hover:text-white/80 transition-colors">
+      <div className="flex items-center gap-8 text-base font-medium text-white">
+        <Link href="/login" className="text-white/90 hover:text-white transition-colors">
           Sign In
         </Link>
-        <Link href="/signup" className="hover:text-white/80 transition-colors">
+        <Link href="/signup" className="text-white/90 hover:text-white transition-colors">
           Join Us
         </Link>
         <button
@@ -64,8 +64,8 @@ export default function Navbar() {
           className="flex items-center justify-center text-white hover:text-white/80 transition-transform active:scale-95"
         >
           <svg
-            width="20"
-            height="20"
+            width="22"
+            height="22"
             viewBox="0 0 24 24"
             fill="none"
             stroke="currentColor"
@@ -82,3 +82,5 @@ export default function Navbar() {
     </header>
   );
 }
+
+
